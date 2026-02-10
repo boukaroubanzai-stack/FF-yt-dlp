@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "FF ytdl",
+  "version": "1.0",
+  "description": "Download videos with yt-dlp via context menu",
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ff-ytdl@local",
+      "strict_min_version": "55.0"
+    }
+  }
+}
